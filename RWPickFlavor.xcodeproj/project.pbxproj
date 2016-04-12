@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F57FA33CEE1DFE4D85ECE518 /* Pods_RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979EE3D468583E67DBDCFF07 /* Pods_RWPickFlavor.framework */; };
+		FFA533121CBCD57F00200873 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFA533101CBCD57F00200873 /* Info.plist */; };
+		FFA533131CBCD57F00200873 /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA533111CBCD57F00200873 /* RWPickFlavor.h */; };
+		FFA5331C1CBCDA4F00200873 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5331B1CBCDA4F00200873 /* RGBAColorFromString.swift */; };
+		FFA533201CBCDA8E00200873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5331D1CBCDA8E00200873 /* AppDelegate.swift */; };
+		FFA533211CBCDA8E00200873 /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5331E1CBCDA8E00200873 /* PickFlavorDataSource.swift */; };
+		FFA533221CBCDA8E00200873 /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5331F1CBCDA8E00200873 /* PickFlavorViewController.swift */; };
+		FFA533241CBCDAAA00200873 /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA533231CBCDAAA00200873 /* Flavor.swift */; };
+		FFA533261CBCDB4300200873 /* FlavorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA533251CBCDB4300200873 /* FlavorFactory.swift */; };
+		FFA5332A1CBCDB5100200873 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA533271CBCDB5100200873 /* IceCreamView.swift */; };
+		FFA5332B1CBCDB5100200873 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA533281CBCDB5100200873 /* ScoopCell.swift */; };
+		FFA5332C1CBCDB5100200873 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA533291CBCDB5100200873 /* ScoopView.swift */; };
+		FFA533361CBCEEC400200873 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFA533351CBCEEC400200873 /* background.jpg */; };
+		FFA533381CBCEF8600200873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA533371CBCEF8600200873 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F29ADAA8B26A685D3533044 /* Pods-RWPickFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.release.xcconfig"; sourceTree = "<group>"; };
+		88F2830B85CE968F5F4163ED /* Pods-RWPickFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.debug.xcconfig"; sourceTree = "<group>"; };
+		979EE3D468583E67DBDCFF07 /* Pods_RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF47FCFB1CBCCFC600E67384 /* RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA533101CBCD57F00200873 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA533111CBCD57F00200873 /* RWPickFlavor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWPickFlavor.h; sourceTree = "<group>"; };
+		FFA5331B1CBCDA4F00200873 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
+		FFA5331D1CBCDA8E00200873 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA5331E1CBCDA8E00200873 /* PickFlavorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorDataSource.swift; sourceTree = "<group>"; };
+		FFA5331F1CBCDA8E00200873 /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
+		FFA533231CBCDAAA00200873 /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		FFA533251CBCDB4300200873 /* FlavorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlavorFactory.swift; sourceTree = "<group>"; };
+		FFA533271CBCDB5100200873 /* IceCreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
+		FFA533281CBCDB5100200873 /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
+		FFA533291CBCDB5100200873 /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
+		FFA533351CBCEEC400200873 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		FFA533371CBCEF8600200873 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF47FCF71CBCCFC600E67384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57FA33CEE1DFE4D85ECE518 /* Pods_RWPickFlavor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC3783CE4535931535CDD08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88F2830B85CE968F5F4163ED /* Pods-RWPickFlavor.debug.xcconfig */,
+				7F29ADAA8B26A685D3533044 /* Pods-RWPickFlavor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C03F00EC00BE209E862F06C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				979EE3D468583E67DBDCFF07 /* Pods_RWPickFlavor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF47FCF11CBCCFC600E67384 = {
+			isa = PBXGroup;
+			children = (
+				FFA5330F1CBCD57F00200873 /* RWPickFlavor */,
+				FF47FCFC1CBCCFC600E67384 /* Products */,
+				0DC3783CE4535931535CDD08 /* Pods */,
+				9C03F00EC00BE209E862F06C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF47FCFC1CBCCFC600E67384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF47FCFB1CBCCFC600E67384 /* RWPickFlavor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA5330F1CBCD57F00200873 /* RWPickFlavor */ = {
+			isa = PBXGroup;
+			children = (
+				FFA533351CBCEEC400200873 /* background.jpg */,
+				FFA533141CBCD58900200873 /* Categories */,
+				FFA533151CBCD59D00200873 /* Controllers */,
+				FFA533301CBCDBBB00200873 /* Factories */,
+				FFA533171CBCD5C700200873 /* Models */,
+				FFA533181CBCD5D200200873 /* Views */,
+				FFA533101CBCD57F00200873 /* Info.plist */,
+				FFA533111CBCD57F00200873 /* RWPickFlavor.h */,
+			);
+			path = RWPickFlavor;
+			sourceTree = "<group>";
+		};
+		FFA533141CBCD58900200873 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5331B1CBCDA4F00200873 /* RGBAColorFromString.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FFA533151CBCD59D00200873 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFA5331D1CBCDA8E00200873 /* AppDelegate.swift */,
+				FFA5331E1CBCDA8E00200873 /* PickFlavorDataSource.swift */,
+				FFA5331F1CBCDA8E00200873 /* PickFlavorViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FFA533171CBCD5C700200873 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFA533231CBCDAAA00200873 /* Flavor.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FFA533181CBCD5D200200873 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFA533191CBCD5DD00200873 /* Ice Cream */,
+				FFA5331A1CBCD5E500200873 /* Storyboards & Nibs */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FFA533191CBCD5DD00200873 /* Ice Cream */ = {
+			isa = PBXGroup;
+			children = (
+				FFA533271CBCDB5100200873 /* IceCreamView.swift */,
+				FFA533281CBCDB5100200873 /* ScoopCell.swift */,
+				FFA533291CBCDB5100200873 /* ScoopView.swift */,
+			);
+			name = "Ice Cream";
+			sourceTree = "<group>";
+		};
+		FFA5331A1CBCD5E500200873 /* Storyboards & Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				FFA533371CBCEF8600200873 /* Main.storyboard */,
+			);
+			name = "Storyboards & Nibs";
+			sourceTree = "<group>";
+		};
+		FFA533301CBCDBBB00200873 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				FFA533251CBCDB4300200873 /* FlavorFactory.swift */,
+			);
+			name = Factories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF47FCF81CBCCFC600E67384 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA533131CBCD57F00200873 /* RWPickFlavor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FF47FCFA1CBCCFC600E67384 /* RWPickFlavor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF47FD031CBCCFC600E67384 /* Build configuration list for PBXNativeTarget "RWPickFlavor" */;
+			buildPhases = (
+				17AFCCF2C290C4C944912B4F /* Check Pods Manifest.lock */,
+				FF47FCF61CBCCFC600E67384 /* Sources */,
+				FF47FCF71CBCCFC600E67384 /* Frameworks */,
+				FF47FCF81CBCCFC600E67384 /* Headers */,
+				FF47FCF91CBCCFC600E67384 /* Resources */,
+				E91C9810AE36FB4B901A9E24 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWPickFlavor;
+			productName = RWPickFlavor;
+			productReference = FF47FCFB1CBCCFC600E67384 /* RWPickFlavor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF47FCF21CBCCFC600E67384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HCL;
+				TargetAttributes = {
+					FF47FCFA1CBCCFC600E67384 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FF47FCF51CBCCFC600E67384 /* Build configuration list for PBXProject "RWPickFlavor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF47FCF11CBCCFC600E67384;
+			productRefGroup = FF47FCFC1CBCCFC600E67384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF47FCFA1CBCCFC600E67384 /* RWPickFlavor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF47FCF91CBCCFC600E67384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA533361CBCEEC400200873 /* background.jpg in Resources */,
+				FFA533121CBCD57F00200873 /* Info.plist in Resources */,
+				FFA533381CBCEF8600200873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17AFCCF2C290C4C944912B4F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E91C9810AE36FB4B901A9E24 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF47FCF61CBCCFC600E67384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA533201CBCDA8E00200873 /* AppDelegate.swift in Sources */,
+				FFA533221CBCDA8E00200873 /* PickFlavorViewController.swift in Sources */,
+				FFA533241CBCDAAA00200873 /* Flavor.swift in Sources */,
+				FFA5332A1CBCDB5100200873 /* IceCreamView.swift in Sources */,
+				FFA533211CBCDA8E00200873 /* PickFlavorDataSource.swift in Sources */,
+				FFA5332C1CBCDB5100200873 /* ScoopView.swift in Sources */,
+				FFA533261CBCDB4300200873 /* FlavorFactory.swift in Sources */,
+				FFA5332B1CBCDB5100200873 /* ScoopCell.swift in Sources */,
+				FFA5331C1CBCDA4F00200873 /* RGBAColorFromString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF47FD011CBCCFC600E67384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF47FD021CBCCFC600E67384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF47FD041CBCCFC600E67384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F2830B85CE968F5F4163ED /* Pods-RWPickFlavor.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RWPickFlavor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl..RWPickFlavor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF47FD051CBCCFC600E67384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F29ADAA8B26A685D3533044 /* Pods-RWPickFlavor.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RWPickFlavor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hcl..RWPickFlavor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF47FCF51CBCCFC600E67384 /* Build configuration list for PBXProject "RWPickFlavor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF47FD011CBCCFC600E67384 /* Debug */,
+				FF47FD021CBCCFC600E67384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF47FD031CBCCFC600E67384 /* Build configuration list for PBXNativeTarget "RWPickFlavor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF47FD041CBCCFC600E67384 /* Debug */,
+				FF47FD051CBCCFC600E67384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF47FCF21CBCCFC600E67384 /* Project object */;
+}
